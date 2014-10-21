@@ -2,7 +2,7 @@ var api_route = require('../src/api-route')
 var assert = require('assert')
 
 describe('api_route', function() {
-    it('should return -1 when the value is not present', function() {
+    it('should verify that session was changed', function() {
         var req = new function() {
 
         }
